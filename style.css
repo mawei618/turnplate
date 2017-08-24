@@ -6,15 +6,155 @@ input{ font-size:12px;}
 a{ text-decoration:none; color:#000;}
 a:hover{color:#c00; text-decoration:none;}
 .clear{clear:both;}
-
+body,html{
+    padding-bottom: 10px;
+}
 /* 大转盘样式 */
-.banner{display:block;width:70%;margin-left:auto;margin-right:auto;margin-bottom: 20px;margin-top: 5rem}
-.banner .turnplate{display:block;width:100%;position:relative;}
-.banner .turnplate canvas.item{width:100%;}
+.banner{
+	display:block;
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 20px;
+}
+.banner .turnplate{
+	display:block;
+	width:100%;
+	position:relative;
+}
+.banner .turnplate canvas.item{
+	width:100%;
+}
 .banner .turnplate img.pointer{
     position: absolute;
     width: 35.5%;
     height: 45.5%;
     left: 32.4%;
     top: 21.7%;
+}
+.banner_title{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+.banner_title img{
+	width: 85%;
+}
+ .draw_rule{
+    width: 82%;
+    margin: 1.8rem auto 0;
+    border: 0.2rem solid #FFBE04;
+    border-radius: 0.5rem;
+    position: relative;
+    background: #FFF8DD;
+}
+.draw_rule_title{
+    text-align: center;
+    position: absolute;
+    position: relative;
+    top: -1rem;
+}
+.draw_rule_title img{
+    width: 7rem;
+    height: 2rem;
+    display: inline;
+}
+.draw_rule_title span{
+    position: absolute;
+    left: 50%;
+    line-height: 40px;
+    transform: translateX(-50%);
+    transform: -wekit-translateX(-50%);
+    font-size: 0.7rem;
+    color: #ea2000;
+    font-weight: 600;
+}
+.draw_rule_cont{
+    width: 90%;
+    margin: -0.5rem auto 1rem;
+    font-size: 0.55rem;
+    color: #333;
+}
+.info_title{
+    background: #FFE27C;
+    height: 1.5rem;
+    margin: 0 auto 0.6rem;
+    border-radius: 25px;
+    color: #ea2000;
+    font-size: 0.6rem;
+    line-height: 1.5rem;
+}
+.info_title span{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+.draw_li{
+    height: 25px;
+}
+.draw_li span{
+    font-size: 0.55rem;
+    color: #333;
+}
+.draw_li span:first-chi.draw_rule{
+    width: 82%;
+    margin: 1.5rem auto 0;
+    border: 0.2rem solid #FF4A02;
+    border-radius: 0.5rem;
+    position: relative;
+    background: #FFF8DD;
+}
+.draw_rule_title{
+    text-align: center;
+    position: absolute;
+    position: relative;
+    top: -1rem;
+}
+.draw_rule_title img{
+    width: 7rem;
+    height: 2rem;
+    display: inline;
+}
+.draw_rule_title span{
+    position: absolute;
+    left: 50%;
+    line-height: 30px;
+    transform: translateX(-50%);
+    transform: -wekit-translateX(-50%);
+    font-size: 0.7rem;
+    color: #ea2000;
+    font-weight: 600;
+}
+.draw_rule_cont{
+    width: 90%;
+    margin: -0.5rem auto 1rem;
+    font-size: 0.55rem;
+    color: #333;
+}
+.info_title{
+    background: #FFE27C;
+    height: 1.5rem;
+    margin: 0 auto 0.6rem;
+    border-radius: 25px;
+    color: #ea2000;
+    font-size: 0.6rem;
+    line-height: 1.5rem;
+}
+.info_title span{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+.draw_li{
+    height: 25px;
+}
+.draw_li span{
+    font-size: 0.55rem;
+    color: #333;
+}
+.draw_li span:first-child{
+    margin-left: 1.2rem;
+}
+.draw_li span:nth-child(2){
+    float: right;
 }
